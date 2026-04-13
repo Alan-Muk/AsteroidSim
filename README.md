@@ -1,7 +1,5 @@
  Asteroid Simulation (MPC Data)
 
-This project visualizes thousands of asteroids using real orbital data from the Minor Planet Center.
-
  Features
 
 * Uses real MPCORB data
