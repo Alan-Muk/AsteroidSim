@@ -15,3 +15,20 @@ fig.update_layout(scene=dict(
 ))
 
 fig.show()
+
+"""
+Creates an interactive 3D visualization of asteroid positions.
+
+Process:
+- Extracts Cartesian coordinates from the positions list
+- Generates a Plotly 3D scatter plot
+- Displays asteroid locations in astronomical units (AU)
+
+Visualization settings:
+- Orange markers represent asteroids
+- Semi-transparent markers improve depth visibility
+- Interactive controls allow zooming, rotation, and panning
+
+Output:
+- Interactive 3D asteroid distribution map
+"""
