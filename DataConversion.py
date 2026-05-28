@@ -21,3 +21,20 @@ for _, row in asteroids.iterrows():
         positions.append([pos.x.value, pos.y.value, pos.z.value])
     except Exception as e:
         continue  # skip problematic entries
+
+"""
+Creates orbital models for each asteroid using classical orbital elements.
+
+Process:
+- Iterates through asteroid orbital data
+- Builds heliocentric orbits around the Sun
+- Converts orbital parameters into 3D position vectors
+- Stores Cartesian coordinates (x, y, z) in astronomical units
+
+Libraries:
+- astropy: unit handling and astronomical calculations
+- poliastro: orbital mechanics and orbit generation
+
+Error handling:
+- Invalid or malformed asteroid records are skipped automatically
+"""
