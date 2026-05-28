@@ -124,3 +124,31 @@ fig.update_layout(
 )
 
 fig.show()
+
+"""
+Asteroid orbit simulation and visualization using MPCORB data.
+
+Workflow:
+1. Downloads asteroid orbital data from the Minor Planet Center
+2. Parses orbital elements from the MPCORB dataset
+3. Generates heliocentric asteroid orbits using poliastro
+4. Propagates asteroid positions over time
+5. Visualizes asteroid motion in a 3D animated Plotly graph
+
+Libraries:
+- requests: downloads MPCORB dataset
+- pandas: structured data handling
+- numpy: numerical operations and time sampling
+- astropy: astronomical units and time calculations
+- poliastro: orbital mechanics and orbit propagation
+- plotly: interactive 3D visualization and animation
+
+Simulation details:
+- Uses a subset of 5000 asteroids for performance
+- Simulates 1 year of orbital motion
+- Generates 30 animation frames
+- Positions are displayed in astronomical units (AU)
+
+Output:
+- Interactive animated 3D asteroid belt visualization
+"""
