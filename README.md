@@ -2,7 +2,7 @@
 
 A real-time 3D asteroid belt visualization built with Processing using orbital elements from the Minor Planet Center (MPC) catalog.
 
-![Asteroid Simulation](docs/screenshot.png)
+![Asteroid Simulation]
 
 ## Overview
 
