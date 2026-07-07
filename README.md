@@ -1,5 +1,11 @@
 # AsteroidSim
 
+![Processing](https://img.shields.io/badge/Processing-4.x-006699)
+![Java](https://img.shields.io/badge/Java-Mode-orange?logo=openjdk)
+![Astronomy](https://img.shields.io/badge/Data-MPCORB-blue)
+![Simulation](https://img.shields.io/badge/Simulation-Orbital_Mechanics-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A real-time 3D asteroid belt visualization built with Processing using orbital elements from the Minor Planet Center (MPC) catalog.
 
 [Asteroid Simulation]
